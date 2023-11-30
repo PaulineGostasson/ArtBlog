@@ -1,10 +1,10 @@
-# 🌸 Welcome to My Awesome Project 🌈
+# 🌸 Welcome to My Art Blog Project 🌈
 
 ![Cute Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRDKHqgtdZJ9SEVhuJ6eu6nw36tjREBNJ6e70nSl_nsA&s)
 
 ## 🌟 About
 
-Hello there! 👋 This is my awesome project that does amazing things. It's filled with love and creativity.
+Hello there! 👋 This is my little art blog project for my UI/UX course. 
 
 ## 🎀 Features
 
