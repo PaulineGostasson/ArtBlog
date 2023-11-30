@@ -1,0 +1,21 @@
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Style the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #ff94ca; /* Pink color */
+    border-radius: 10px;
+  }
+  
+  /* Style the scrollbar track on hover */
+  ::-webkit-scrollbar-track:hover {
+    background-color:transparent; /* Light pink color on hover */
+  }
+  
+  /* Style the scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ff3385; /* Darker pink color on hover */
+  }
+  

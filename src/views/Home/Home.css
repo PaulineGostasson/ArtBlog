@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Cairo:wght@300;500;600;700;800;900&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Karma:wght@300;400;500;600;700&family=Major+Mono+Display&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800&family=PT+Mono&display=swap");
+
+.home  {
+  background-image: url('https://64.media.tumblr.com/1495eda9b85514be1c2f70255f33f1d3/0f752fc523e6984f-c2/s1280x1920/506c26268fe94b3d2a270340dc2bc0f7dc81667b.gifv');
+  background-size: cover;
+  height: 100vh; /* Make the background cover the full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main__background {
+  background-color: #ffeeee6f; 
+  width: 70%;
+  max-width: 600px; /* Set a maximum width for the content */
+  border-radius: 30px;
+  padding: 30px;
+  opacity: 0.9; /* Adjusted transparency */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adjusted drop shadow */
+}
+
+.main__section {
+  width: 100%; /* Adjusted width to fill the container */
+}
+
+.main__title {
+  font-size: 45px;
+  color: #ff66b2;
+  font-weight: 600;
+  font-family: "Inknut Antiqua", serif;
+  letter-spacing: 3px;
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  position: fixed;
+  bottom: 20px;
+}
+
+.button {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Cormorant", serif;
+  letter-spacing: 2px;
+  margin: 0.5em;
+  padding: 0.4em 0.6em;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #ff66b2;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: #ff3385;
+}
