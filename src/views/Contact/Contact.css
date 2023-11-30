@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Cairo:wght@300;500;600;700;800;900&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Karma:wght@300;400;500;600;700&family=Major+Mono+Display&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800&family=PT+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 .contact__main {
   display: flex;
@@ -9,9 +9,9 @@
 
 .breadcrumbs {
   display: flex;
-  font-family: "Inknut Antiqua", serif;
+  font-family: 'Concert One', sans-serif;
   font-size: 20px;
-  color: #ff6b6b; /* Cute theme color */
+  color: #ff6b6b;
 }
 
 .breadcrumbs__back {
@@ -20,9 +20,9 @@
 }
 
 .contact__inputs {
-  font-family: "Inknut Antiqua", serif;
-  background-color: #f9eded; /* Cute theme color */
-  box-shadow: 5px 10px 18px #f0c1b6; /* Cute theme color */
+  font-family: 'Concert One', sans-serif;
+  background-color: #f9eded; 
+  box-shadow: 5px 10px 18px #f0c1b6; 
   border-radius: 30px;
   width: 400px;
   display: flex;
@@ -37,13 +37,13 @@
   width: 100%;
   height: 40px;
   padding: 12px;
-  border: 1px solid #ff6b6b; /* Cute theme color */
+  border: 1px solid #ff6b6b; 
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   font-size: 16px;
-  color: #6b6b6b; /* Cute theme color */
+  color: #6b6b6b; 
 }
 
 .contact__textarea {
@@ -51,38 +51,38 @@
   font-size: 16px;
   height: 150px;
   padding: 12px;
-  border: 1px solid #ff6b6b; /* Cute theme color */
+  border: 1px solid #ff6b6b;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  color: #6b6b6b; /* Cute theme color */
+  color: #6b6b6b; 
 }
 
 .contact__submit {
   width: 100px;
-  background-color: #ff6b6b; /* Cute theme color */
+  background-color: #ff6b6b;
   color: white;
   font-size: 20px;
   padding: 12px;
-  border: 1px solid #ff6b6b; /* Cute theme color */
+  border: 1px solid #ff6b6b;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .contact__submit:hover {
-  background-color: #f9eded; /* Cute theme color */
-  border: 1px solid #ff6b6b; /* Cute theme color */
-  color: #ff6b6b; /* Cute theme color */
+  background-color: #f9eded;
+  border: 1px solid #ff6b6b; 
+  color: #ff6b6b; 
 }
 
 .message__submit,
 .message__fill {
-  font-family: "Inknut Antiqua", serif;
+  font-family: 'Concert One', sans-serif;
   font-size: 18px;
   margin-bottom: -2.4rem;
-  color: #6b6b6b; /* Cute theme color */
+  color: #6b6b6b;
   text-align: center;
 }
 
@@ -92,13 +92,13 @@
 }
 
 .message__fill:hover {
-  color: #ff6b6b; /* Cute theme color */
+  color: #ff6b6b; 
 }
 
 .message-phone {
-  font-family: "Inknut Antiqua", serif;
+  font-family: 'Concert One', sans-serif;
   font-size: 16px;
-  color: #ff6b6b; /* Cute theme color */
+  color: #ff6b6b; 
 }
 
 /* Dropdown container */
@@ -113,15 +113,15 @@
   width: 100%;
   height: 40px;
   padding: 12px;
-  border: 1px solid #ff6b6b; /* Cute theme color */
+  border: 1px solid #ff6b6b; 
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   font-size: 16px;
-  color: #6b6b6b; /* Cute theme color */
+  color: #efacac; 
   cursor: pointer;
-  background-color: #fff; /* White background */
+  background-color: #fff; 
 }
 
 /* Dropdown list container style */
@@ -132,11 +132,11 @@
   left: 0;
   z-index: 1;
   width: 100%;
-  background-color: #fff; /* White background */
-  border: 1px solid #ff6b6b; /* Cute theme color */
+  background-color: #fff; 
+  border: 1px solid #ff6b6b; 
   border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cute theme color */
-  overflow-y: auto; /* Make it a scroll menu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow-y: auto; 
 }
 
 /* Dropdown list item style */
@@ -145,19 +145,19 @@
   padding: 10px;
   cursor: pointer;
   font-size: 16px;
-  color: #6b6b6b; /* Cute theme color */
+  color: #6b6b6b; 
   transition: background-color 0.3s ease-in-out;
 }
 
 /* Hover effect on dropdown list item */
 .dropdown-item:hover,
 .contact__select-item:hover {
-  background-color: #f9eded; /* Cute theme color */
+  background-color: #f9eded; 
 }
 
 /* Styling for selected option */
 .selected-option {
-  color: #ff6b6b; /* Cute theme color */
+  color: #ff6b6b; 
 }
 
 /* Styling for the dropdown arrow */
@@ -168,5 +168,5 @@
   right: 12px;
   transform: translateY(-50%);
   font-size: 18px;
-  color: #ff6b6b; /* Cute theme color */
+  color: #ff6b6b; 
 }

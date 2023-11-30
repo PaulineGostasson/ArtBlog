@@ -1,6 +1,6 @@
-/* MyspaceBlog.css */
 
-.myspace-blog {
+
+.blog {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@
   margin-top: 2em;
   font-family: "Inknut Antiqua", serif;
   font-size: 18px;
-  color: #951cd3; /* Cute purple color */
+  color: #951cd3; 
 }
 
 .breadcrumbs__back {
@@ -28,8 +28,8 @@
 
 .blog__post {
   max-width: 600px;
-  background-color: #ffeca7; /* Cute yellow background */
-  border: 1px solid #d97dd6; /* Cute purple border */
+  background-color: #ffeca7; 
+  border: 1px solid #d97dd6; 
   border-radius: 10px;
   padding: 1em;
   margin: 1em;
@@ -38,19 +38,19 @@
 .blog__title {
   font-size: 24px;
   margin-bottom: 0.5em;
-  color: #a23f95; /* Cute pink color */
+  color: #a23f95; 
 }
 
 .blog__date {
   font-size: 14px;
-  color: #ffeca7; /* Cute yellow color */
+  color: #ffeca7; 
   margin-bottom: 1em;
 }
 
 .blog__content {
   font-size: 16px;
-  color: #951cd3; /* Cute purple color */
+  color: #951cd3;
   line-height: 1.5;
 }
 
-/* Add more styles as needed */
+

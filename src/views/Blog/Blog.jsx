@@ -10,8 +10,8 @@ function MyspaceBlog() {
   }
 
   return (
-    <div className="myspace-blog">
-      <title>Myspace Blog</title>
+    <div className="blog">
+      <title> Blog</title>
       <header className="breadcrumbs" role="heading" aria-level="1">
         <article className="breadcrumbs__back" onClick={backToHome}>
         {"HOME "}
