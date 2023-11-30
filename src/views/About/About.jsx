@@ -35,12 +35,16 @@ function About() {
           Exploring the vast possibilities of digital art has been an exciting endeavor for me. From traditional mediums to digital canvases, I find joy in bringing my imagination to life. Whether it's creating vibrant illustrations or diving into the world of fantasy, every stroke is a step into my artistic expression.
         </p>
         <article
-  className="contact__link"
-  role="button"
-  onClick={contact}
-> Feel free to send away an art comission and I'll get back to you as soon as I can!
-          CONTACT ME HERE{" "}
-        </article>{" "}
+          className="contact__link"
+          role="button"
+          onClick={contact}
+        >
+          Feel free to send away an art commission, and I'll get back to you as soon as I can!{" "}
+        </article>
+        
+        <p>
+          Here's a <a href="src/assets/video.mp4">link to download</a> the video
+        </p>
       </article>
 
       <section className="about__imgcontainer">
@@ -52,9 +56,6 @@ function About() {
             srcLang="eng"
             label="English"
           />
-          <p>
-            Here's a <a href="src\assets\video.mp4">link to download</a> the video
-          </p>
         </video>
       </section>
     </main>

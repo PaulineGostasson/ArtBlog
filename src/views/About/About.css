@@ -55,6 +55,13 @@
   color: purple;
 }
 
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+  margin-top: 1rem;
+  color: purple;
+}
+
 .contact__link {
   cursor: pointer;
   text-decoration: underline;
