@@ -53,4 +53,9 @@
   line-height: 1.5;
 }
 
+.blog__post img {
+  max-width: 100%;
+
+}
+
 

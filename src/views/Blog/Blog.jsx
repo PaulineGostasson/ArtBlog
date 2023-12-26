@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Blog.css"; 
+import roadImage from "../../assets/road.jpg"
 
 function MyspaceBlog() {
   const navigate = useNavigate();
@@ -35,6 +36,7 @@ function MyspaceBlog() {
             Today was such an interesting day! I went for a walk, took some
             photos for references to my digital art. Life is good!
           </p>
+          <img src={roadImage} alt="Image of a road" />
         </article>
         
       </main>
